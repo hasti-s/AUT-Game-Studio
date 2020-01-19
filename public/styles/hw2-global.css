@@ -1,0 +1,60 @@
+/* 	global css rules in hw2 pages like font-family (@font-face), boxes, and login-register inputs
+	author: 9231073;
+	date: dd-mm-yy;
+	version: 0.1;
+*/
+
+@font-face {
+  font-family: gandom;
+  src: url('gandom.eot');
+  src: url('gandom.eot?#iefix') format('embedded-opentype'),
+       url('gandom.woff') format('woff'),
+       url('gandom.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: gandom;
+  src: url('gandom-bold.eot');
+  src: url('gandom-bold.eot?#iefix') format('embedded-opentype'),
+       url('gandom-bold.woff') format('woff'),
+       url('gandom-bold.ttf') format('truetype');
+  font-weight: bold;
+}
+body {
+	background-color: SteelBlue;
+	font-family: gandom;
+	margin: 0;
+
+}
+
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+   width: 50%;
+}
+
+
+
+.navbar li a {
+    display: block;
+    padding: 8px;
+    background-color: DimGray;
+    color: GhostWhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease 200ms;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+

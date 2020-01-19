@@ -1,0 +1,451 @@
+/* 	css rules for home.html page
+	author: 9231073;
+	date: dd-mm-yy;
+	version: 0.1;
+*/
+body *{
+	direction: rtl;
+}
+.container{
+	height: 550px;
+	position: relative;
+	/*background-size: cover;*/
+	transition: 600ms;
+	background: url(../assets/images/call-of-duty-background-18.jpg) no-repeat center center;
+	background-size: cover;
+}
+.container .over-lay{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.7);
+	z-index: 1;
+}
+.container .upbar,.container .middleText,.container .trailer{
+	z-index: 2;
+	position: relative;
+}
+.container .upbar{
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 1rem 20%;
+}
+.upbar .upbar-mgl{
+	margin-left: 10px;
+}
+/*.container:before{
+	filter: brightness(30%); 
+}*/
+
+button{
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+#register {
+	background-color: #1790DC;
+	font-size: 15px;
+	color: white;
+	font-family: gandom;
+	cursor: pointer;
+}
+
+#register a{
+	color: white;
+}
+
+
+#logout {
+	background-color: #1790DC;	
+	font-size: 15px;
+	color: white;
+	font-family: gandom;
+	cursor: pointer;
+}
+
+#logout a{
+	color: white;
+}
+
+#login{
+	background-color: Transparent;
+	font-size: 15px;
+	font-family: gandom;
+	margin-right: auto;
+}
+
+#login a{
+	color: white;
+}
+
+
+#studio{
+	color: LightSkyBlue;
+	font-size: 18px;
+	font-family: gandom;
+	font-weight: bold;
+}
+
+#amirkabir{
+	color: white;
+	font-size: 18px;
+	font-family: gandom;
+	font-weight: bold;
+}
+
+#gamePad{
+	color: white;
+	font-size: 18px;
+}
+
+#amirkabirB{
+	color: #BDBDBD;
+	font-size: 18px;
+	font-family: gandom;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#gamePadB{
+	color: #BDBDBD;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+
+.middleText{
+	width: 60%;
+	text-align: right;
+	margin: 100px auto 0 auto;
+	font-size: 50px;
+	font-family: gandom;
+	color: white;
+}
+.middleText .game-title{
+	direction: rtl;
+}
+.middleText .firstL{
+	font-size: 20px;
+	margin-top: 20px;
+	direction: rtl;
+	max-width: 500px;
+	margin-left: auto;
+}
+
+.middleText .secondL{
+	font-size: 20px;
+}
+
+.trailer{
+	color: lightGray;
+	font-size: 18px;
+	text-align: right;
+	margin: 40px auto 0 auto;
+	width: 60%;
+	display: flex;
+	align-items: center;
+}
+.trailer .trailer-link{
+	margin-left: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#playCircle{
+	color: lightGray;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+a.game-button{
+	background-color: #1790DC;
+	padding: 5px 20px;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family: gandom;
+	margin-top: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.top-slider .owl-item{
+	padding: 10px;
+	max-height: 160px;
+}
+.slideBarItem{
+	box-shadow: 0px 0px 1px 1px rgba(100,100,100,0.5);
+	display: flex;
+}
+.slideBarItem:hover{
+	transition: 600ms;
+	cursor: pointer;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+}
+.owl-carousel img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.newGames .owl-carousel .owl-wrapper-outer{
+	padding: 10px;
+}
+
+.newGames{
+	/*position: absolute;*/
+	width: 60%;
+	margin: 0 auto 1rem auto;
+	text-align: right;
+	font-size: 20px;
+	font-family: gandom;
+
+}
+
+.newGames .newGameName{
+	direction: rtl;
+}
+.newGames .genre{
+	padding: 10px;
+}
+.newGames .owl-wrapper .owl-item{
+	width: 200px!important;
+}
+
+.newGameItem{
+	width: 100%;
+	/*height: 8rem;*/
+}
+
+.stars{
+	text-align: right;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+.stars .star-ratings-css-bottom{
+	direction: ltr;
+}
+
+.newGameName{
+	font-size: 15px;
+	color: #1790DC;
+	font-weight: bold;
+	padding-right: 5%;
+}
+
+
+.newGameWrapper{
+	margin-left: 10%;
+	/*position: relative;*/
+	box-shadow: 0px 0px 1px 1px rgba(100,100,100,0.5);
+}
+.newGameWrapper a.wrap{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.newGameWrapper:hover{
+	transition: 600ms;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+}
+
+.genre{
+	font-size: 12px;
+	text-align: right;
+}
+
+.newGamesTitle{
+	text-align: right;
+	width: 60%;
+	margin: 0 auto 1rem auto;
+}
+
+.CommentsGuidesTitle{
+	text-align: right;
+	/*margin-bottom: 20px;*/
+	/*padding-right: 450px;*/
+	font-size: 25px;
+	padding-top: 30px;
+	margin-bottom: 25px;
+}
+
+.CommentsGuides{
+	background-color: #FAFAFA;
+	border: 1px solid #EEEEEE;
+	text-align: right;
+}
+
+.CommentsGuidesCenter{
+	width: 60%;
+	margin: 1rem auto;
+}
+
+.join{
+	background-size: cover;
+	width:100% ;
+	height: 300px;
+	background: url(../assets/images/best_hd_assassins_creed_black_flag_game_wallpapers.jpg) no-repeat;
+	position: relative;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.CommentsGuidesText{
+	font-size: 12px;
+	color: DimGrey;
+	margin-bottom: 40px;
+}
+
+.over-lay-blue{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(23, 144, 220,.8);
+	z-index: 1;
+	height: 300px;
+}
+
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #1790DC;
+  font-size: 10px;
+  height: 10px;
+  width: 30px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  /*text-shadow: 0px 1px 0 #a2a2a2;*/
+}
+.star-ratings-css-top {
+  color: LightGray;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+
+.joinTitle{
+	padding-top: 60px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+}
+
+.joinText{
+	padding-top: 10px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+}
+
+.joinButton{
+	background-color: white;
+	color: gray;
+	z-index: 2;
+	margin: 30px auto;
+	position: relative;
+	text-align: center;
+	width: 10%;
+	font-size: 20px;
+	padding: auto;
+	font-family: gandom;
+}
+.rights{
+	height: 60px;
+	background-color: #EEEEEE;
+	text-align: center;
+	color: #BDBDBD; 
+	padding-top: 40px;
+}
+
+.tableToori{
+	/*margin-bottom: 100px;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.tableItem{
+	color: DimGrey;
+}
+
+.circleImg{
+	border-radius: 100%;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #FAFAFA;
+}
+
+.guidImg{
+	width: 70px;
+	height: 50px;
+	margin-left: 10px;
+	object-fit: cover;
+}
+
+.commenterImg{
+	height:50px;
+	object-fit: cover;
+}
+
+.commentText{
+	font-size: 12px;
+}
+
+.guidText{
+	/*float: right;*/
+	font-size: 12px;
+}
+
+.khodeComment{
+	color: #1790DC;
+	font-size: 14px;
+}
+
+.khodeGuide{
+	color: #1790DC;
+	font-size: 14px;
+}
+
+.listItem{
+
+}
+
+ul{
+	list-style: none;
+}
+
+.commentContainer{
+	display: flex;
+	margin: 1rem 0;
+}
+.guidContainer{
+	display: flex;
+	margin: 1rem 0;
+}
+
+.commentContainer .commentText{
+	margin: 0 20px;
+}
+
+.guidContainer

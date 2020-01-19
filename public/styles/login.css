@@ -1,0 +1,100 @@
+/* 	css rules for login.html page
+	author: 9231073;
+	date: dd-mm-yy;
+	version: 0.1;
+*/
+
+
+form.loginform{
+	display: block;
+    margin: auto;
+	background-color: white;
+	width: 25%;
+	height: 330px;
+	text-align: center;
+	color: Gray;
+	margin-top: 100px;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+form.loginform .input-a{
+	margin: 10px 0 10px 0; 
+}
+form.loginform .input-a input {
+	text-align: right;
+	border-style: none;
+	border-bottom: solid;
+	border-color: gray;
+	border-width: 1px;
+	outline: none;
+	padding: 5px;
+	font-family: gandom;
+}
+
+form.loginform .input-a input:hover {
+	/*color: #D81B60;*/
+	border-bottom-color: #D81B60;
+}
+
+.rememberMe {
+	margin-top: 10px;
+}
+
+button{
+	background-color: #D81B60;
+	color: white;
+	border: none;
+	width: 53%;
+	height: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*#lock{
+	
+	font-size: 24px;
+}*/
+.fa:hover{
+	
+	font-size: 26px;
+	color: #D81B60;
+}
+
+#user{
+	
+	font-size: 19px;
+}
+
+.box-title{
+	margin-bottom: 50px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+div.footer{
+	display: block;
+    margin: auto;
+    width: 25%;
+	height: 30px;
+	text-align: center;
+	background-color: LightGray;
+	color: gray;
+}
+
+.forgotten{
+	color: gray !important;
+}
+
+button:hover{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+
+
+
+
+
+
+
+
+
+

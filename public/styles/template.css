@@ -1,0 +1,271 @@
+/* 	css rules for gameInfo.html page
+	author: 9231073;
+	date: dd-mm-yy;
+	version: 0.1;
+*/
+
+.upbar{
+	z-index: 2;
+	position: relative;
+	text-align: right;
+	margin-top: 10px;
+	padding-right: 300px;
+}
+
+#studio{
+	color: LightSkyBlue;
+	font-size: 18px;
+	font-family: gandom;
+	font-weight: bold;
+}
+
+#amirkabir{
+	color: #BDBDBD;
+	font-size: 18px;
+	font-family: gandom;
+	font-weight: bold;
+}
+
+#gamePad{
+	color: #BDBDBD;
+	font-size: 18px;
+}
+
+#search{
+	text-align: right;
+	margin-right: 25%;
+	color: gray;
+	font-family: gandom;
+}
+
+.fa-search{
+	margin-left: 5%;
+	color: gray;
+}
+
+.login{
+	color: gray;
+	font-size: 12px;
+}
+
+.fa-user{
+	font-size: 20px;
+	color: gray;
+}
+
+.container{
+	height: 200px;
+	background-image: url(../assets/images/header.jpg);
+	position: relative;
+	/*background-size: cover;*/
+	background-position:  top,center;
+	margin-top: 10px;
+}
+.container .over-lay{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(50,62,72,.5);
+	z-index: 1;
+}
+.container .upbar,.container .middleText, .container .circleToorImg{
+	z-index: 2;
+	position: relative;
+}
+
+#startGame{
+	color: white;
+	background-color: #1790DC;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 5px 15px 5px 15px;
+	font-family: gandom;
+	margin-top: 60px;
+	margin-right: 10%;
+}
+
+.middleText{
+	text-align: right;
+	margin-right: 300px;
+	font-size: 20px;
+	font-family: gandom;
+	/*margin-top: 100px;*/
+	color: white;
+}
+
+.gameImg{
+	width:110px;
+	height:110px;
+}
+
+.circleToorImg{
+	border-radius: 8%;
+	overflow: hidden;
+	width: 110px;
+	height: 110px;
+	float: right;
+	margin-top: 40px;
+	margin-left: 5%;
+}
+
+#firstL{
+	font-size: 12px;
+	margin-top: 5px;
+	color: #BDBDBD;
+
+}
+
+.tabs{
+	text-align: right;
+	background-color: #EEEEEE;
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tab1{
+	margin-right: 300px;
+	padding-bottom: 8px;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #1790DC;
+}
+
+.tab{
+	margin-right: 30px;
+}
+
+.buttomBar{
+	margin-top: 30px;
+	text-align: right;
+	margin-right: 300px;
+}
+
+.buttomBarItem{
+	font-size: 14px;
+	color: #1790DC;
+}
+
+.shareIcons{
+	margin-top: 30px;
+	margin-bottom: 30px
+}
+
+.fa-instagram{
+	border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #BDBDBD;
+    padding-left: 5px;
+    padding-top: 4px;
+    text-align: left;
+    /*background-color: red;*/
+}
+
+.fa-facebook{
+	border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #BDBDBD;
+    padding-left: 4px;
+    padding-top: 4px;
+    text-align: left;
+    /*background-color: red;*/
+}
+
+.fa-twitter{
+	border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #BDBDBD;
+    padding-right: 5px;
+    padding-top: 4px;
+    text-align: right;
+    /*background-color: red;*/
+}
+
+#amirkabirB{
+	color: #BDBDBD;
+	font-size: 18px;
+	font-family: gandom;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#gamePadB{
+	color: #BDBDBD;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.studioB{
+	padding-top: 45px;
+}
+
+.koofti{
+
+	text-align: left;
+	/*margin-right: 30px;*/
+}
+
+.stars{
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 5%;
+	margin-left: 10px;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #1790DC;
+  font-size: 15px;
+  height: 15px;
+  width: 45px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+}
+.star-ratings-css-top {
+  color: LightGray;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+
+
+.vote{
+	margin-top: 10px;
+	color: white;
+	font-size: 10px;
+	text-align: right;
+	position: relative;
+	bottom: -4px;
+}
+
+.rights{
+	height: 60px;
+	background-color: #EEEEEE;
+	text-align: center;
+	color: #BDBDBD; 
+	padding-top: 40px;
+	margin-top: 10px;
+}

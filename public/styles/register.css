@@ -1,0 +1,122 @@
+/* 	css rules for register.html page
+	author: 9231073;
+	date: dd-mm-yy;
+	version: 0.1;
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+   width: 50%;
+}
+
+
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: DimGray;
+    color: GhostWhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.registerform {
+	margin: auto;
+	display: block;
+    margin-top: 100px;
+	background-color: white;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	color: Gray;
+	padding-bottom: 50px;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.input-a input{
+	text-align: right;
+	border-style: none;
+	border-bottom: solid;
+	border-color: gray;
+	border-width: 1px;
+	outline: none;
+	padding: 5px;
+	font-family: gandom;
+}
+form.registerform .input-a input:hover {
+	/*color: #D81B60;*/
+	border-bottom-color: #D81B60;
+}
+
+button{
+	background-color: #D81B60;
+	color: white;
+	margin-top: 30px;
+	border: none;
+	width: 53%;
+	height: 30px;
+}
+button:hover{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+/*#lock{
+	
+	font-size: 20px;
+}
+
+#lock:hover{
+	
+	font-size: 26px;
+}*/
+
+.box-title{
+	margin-bottom: 50px;
+	padding-top: 20px;
+	font-style: bold;
+}
+
+.fa:hover{
+	
+	font-size: 26px;
+	color: #D81B60;
+}
+
+#user{
+	
+	font-size: 19px;
+}
+
+.checkboxes{
+	/*color: #D81B60;*/
+	text-align: right;
+	padding-right: 75px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.tik{
+	color: #D81B60;
+}
+
+
+
+
+
+
+
+
+
+
+

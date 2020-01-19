@@ -1,0 +1,119 @@
+/* 	
+	author: 9231073;
+	date: dd-mm-yy;
+	version: 0.1;
+*/
+
+@font-face {
+    font-family: gandom;
+    src: url('../assets/fonts/gandom.eot');
+    src: url('../assets/fonts/gandom.eot?#iefix') format('embedded-opentype'),
+    /*url('../assets/fonts/gandom.woff') format('woff'),*/
+    url('../assets/fonts/gandom.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: gandom;
+    src: url('../assets/fonts/gandom-bold.eot');
+    src: url('../assets/fonts/gandom-bold.eot?#iefix') format('embedded-opentype'),
+    /*url('../assets/fonts/gandom-bold.woff') format('woff'),*/
+    url('../assets/fonts/gandom-bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body a {
+    text-decoration: none;
+}
+body * {
+    font-family: gandom;
+}
+
+body {
+    margin: 0;
+}
+
+/*footer  */
+.bottom-bar {
+    margin: 30px auto;
+    width: 60%;
+}
+
+.bottom-bar .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-l-item {
+    font-size: 16px;
+    color: #1790DC;
+}
+
+.shareIcons {
+    margin: 1.5rem 0;
+    text-align: right;
+}
+
+.shareIcons .fa {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #BDBDBD;
+}
+
+.fa-instagram {
+    padding-left: 5px;
+    padding-top: 4px;
+    text-align: left;
+    /*background-color: red;*/
+}
+
+.fa-facebook {
+    padding-left: 4px;
+    padding-top: 4px;
+    text-align: left;
+    /*background-color: red;*/
+}
+
+.fa-twitter {
+    padding-right: 5px;
+    padding-top: 4px;
+    text-align: right;
+}
+
+.b-l-item {
+    padding: 10px;
+}
+
+.b-l-item:first-child {
+    padding-right: 0;
+}
+
+.b-l-item .amirkabirB {
+    color: #BDBDBD;
+    font-size: 18px;
+    font-family: gandom;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.b-l-item .fa-gamepad {
+    color: #BDBDBD;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.b-l-item .studio {
+    font-size: 18px;
+    font-weight: bold;
+    color: LightSkyBlue;
+}
+
+.b-l-item.break {
+    margin-right: auto;
+}
+
+/*footer*/
+
+
